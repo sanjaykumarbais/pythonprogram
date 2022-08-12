@@ -1,9 +1,9 @@
 import sys
 
 try:
-    n = int(input("please enter an integer: "))
+    n = int(input("Please enter an integer: "))
 except ValueError:
-    sys.exit("you have not entered an integer. try again")
+    sys.exit("You have not entered an integer. Try again")
 
 if n%2==0:
     print("{} is even.".format(n))
